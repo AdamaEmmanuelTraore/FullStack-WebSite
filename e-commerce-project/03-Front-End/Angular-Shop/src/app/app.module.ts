@@ -8,6 +8,7 @@ import { ProductService } from './services/product.service';
 import { RouterModule, Routes } from '@angular/router';
 import { ProductCategoryComponent } from './common/product-category/product-category.component';
 import { ProductCategoryMenuComponent } from './components/product-category-menu/product-category-menu.component';
+import { SearchComponent } from './components/search/search.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     ProductListComponent,
-    ProductCategoryMenuComponent
+    ProductCategoryMenuComponent,
+    SearchComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
