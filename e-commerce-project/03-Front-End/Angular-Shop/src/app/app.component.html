@@ -7,24 +7,7 @@
         <img src="assets/images/products/logo.png" alt="Shop" class="img-responsive">
       </a>
     </div>
-    <div class="menu-sidebar-content js-scrollbar1">
-      <nav class="navbar-sidebar">
-        <ul class="list-unstyled navbar-list">
-          <li>
-            <a href="#">Books</a>
-          </li>
-          <li>
-            <a href="#">Coffee Mugs</a>
-          </li>
-          <li>
-            <a href="#">Mouse Pads</a>
-          </li>
-          <li>
-            <a href="#">Luggage Tags</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <app-product-category-menu></app-product-category-menu>
   </aside>
   <!-- END MENU SIDEBAR-->
 
@@ -55,7 +38,7 @@
     <!-- END HEADER DESKTOP-->
 
     <!-- MAIN CONTENT-->
-    <app-product-list></app-product-list>
+    <router-outlet></router-outlet> <!-- IL ROUTER LINK RENDERIZZA LA PAGINA DESIDERATA DOVE LA SI METTE -->
 
   </div>
 

@@ -23,7 +23,7 @@ body{
 }
 
 ul{
-    margin:0
+    margin:0;
 }
 
 button,input[type=button]{
@@ -84,7 +84,7 @@ h6{
 }
 
 a{
-    display:inline-block
+    display:inline-block;
 }
 
 a:active,a:focus,a:hover{
@@ -124,7 +124,7 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
     background:0 0;
     z-index:99999999;
     height:75px;
-    box-shadow:-2px 0 4px #0000003b
+    box-shadow:-2px 0 4px #0000003b;
 }
 
 /* 
@@ -743,7 +743,8 @@ a.primary-btn{
     color:#fff;
     border-radius:2px;
     font-size:14px;
-    margin-top:5px
+    margin-top:5px;
+    text-decoration: none;
 }
 a.primary-btn:hover{
     background:#f50000;
